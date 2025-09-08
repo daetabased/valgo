@@ -1,4 +1,4 @@
-module github.com/cohesivestack/valgo
+module github.com/daetabased/valgo
 
 go 1.19
 
@@ -13,4 +13,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
+
+retract(
+	v0.6.0 // Forgot to change the gomod paths
 )

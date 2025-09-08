@@ -3,7 +3,7 @@ package custom
 import (
 	"testing"
 
-	"github.com/cohesivestack/valgo"
+	"github.com/daetabased/valgo"
 	"github.com/stretchr/testify/assert"
 )
 

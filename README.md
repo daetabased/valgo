@@ -12,7 +12,7 @@ Here is a quick example:
 ```go
 package main
 
-import v "github.com/cohesivestack/valgo"
+import v "github.com/daetabased/valgo"
 
 func main() {
   val := v.Is(
@@ -129,12 +129,12 @@ v.String(japanese, "field").MaxBytes(15) // ✅ passes
 Install in your project:
 
 ```bash
-go get github.com/cohesivestack/valgo
+go get github.com/daetabased/valgo
 ```
 
 Import in your code:
 ```go
-import v github.com/cohesivestack/valgo
+import v github.com/daetabased/valgo
 ```
 **Note**: You can use any other aliases instead of `v` or just reference the
 package `valgo` directly.
